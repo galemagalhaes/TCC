@@ -1,0 +1,313 @@
+/* A - #704F15
+B - #F2C577
+C - #F0A92E
+D - #705B37
+E - #BD8424 */
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #303030  ;  
+}
+h1, h2, h3 {
+  text-align: center;
+  margin: 2vh auto;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 30vh;
+  background-image: url("../img/madeira.jpg");
+  background-repeat: repeat-x;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;  
+}
+.img-header {
+display: flex;
+width: 12%;
+max-height: 80%;
+margin: 0.8% auto;
+}
+.img-header a {
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+.links-header{
+  display: flex;
+  flex-direction: row;
+  text-align:end;
+  width: 100%;
+  margin: auto;
+  justify-content: space-around; 
+  background-color: #303030;
+  align-items: center;
+  border-bottom: #F0A92E solid 2px;
+}
+a {
+  display: flex;
+  flex-direction: row;
+  height: 8vh;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header a {
+  font-weight: 900;
+  font-size: large;  
+  -webkit-text-stroke: #ffffff 0.5px;
+}
+a:hover {
+  color: #704F15
+}
+.logo {
+  display: flex;
+  width: 100%;
+}
+.banner {
+  display: flex;
+  width: 100%;
+}
+.banner img {
+  width: 100%;
+}
+.premio-img {
+  display: flex;
+  width: 60%;
+}
+.premio-text {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.premio-text p {
+  display: flex;
+  width: 80%;
+  margin: auto;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 8vh auto;
+  justify-content: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+  background-color: #303030d0; 
+}
+form h1, .conteudo h1{
+  color: #ffffff;
+  font-size: 2rem;
+  margin-bottom: 10px;
+  align-items: flex-start;
+}
+input, select, textarea {
+  display: flex;
+  background-color: #fff ;
+  border: none;
+  border-radius:  8px 8px 0px;
+  width: 90%;
+  margin: auto;  
+}
+input, select {
+  height: 4vh;
+}
+label {
+  display: flex;
+  margin: 1vh auto;
+  width: 90%;
+  color: #F0A92E;
+}
+.body-quem-somos, .body-form, .body-atendimento, .body-produtos {
+  background-image: url(../img/Fabrica-Proa-Cervejaria3.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 0% 100%; 
+  background-size: cover;
+}
+
+.quem-somos {
+  width: 60%; 
+  color: #F0A92E; 
+  background-color: #303030d0;
+  margin: 3% auto;
+}
+.quem-somos div {
+  display: flex;
+  flex-direction: column;
+  margin: 5% auto;
+  width: 80%;
+}
+.quem-somos p, .produto-apresentado p, .produto-apresentado h3 {
+  display: flex;
+  width: 100%;
+  text-align: justify;
+  margin: 2vh auto;
+  flex-direction: column;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+}
+.produtos {
+  display: flex;
+  width: 95%;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: auto;
+  align-items: center;
+  padding: 0;
+}
+
+.premiacao  {
+  display: flex;
+  width: 90%;
+  margin: 4vh auto;
+  background-color: #f2c577c9;
+}
+.premiacao img {
+  display: flex;
+  width: 90%;
+  margin: 2vh auto;
+
+}
+.produtos img {
+  display: flex;  
+  width: 90%;
+  height: 40vh;
+  margin: 3vw auto 0;
+
+}
+.produtos-img {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+.produtos p, .produtos h3, .produtos h1 {
+  display: flex;
+  text-align: justify;
+  align-items: center; 
+  color:#F0A92E;  
+}
+.produtos h1 {
+  margin-top: 10vh;
+  font-size: large;
+}
+.produto-apresentado {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  justify-content: center;
+  align-items: center;
+}
+.produto-apresentado p, .produto-apresentado h3 {
+  color: #F0A92E;
+}
+.button {
+  display: flex;
+  margin: 2vh auto;
+  width: 10%;
+  height: 4vh;
+  background-color: #ffffff;
+  border: none;  
+  border-radius: 30px;
+  color: #704F15;
+  font-weight: 600;
+  text-align: center;  
+  justify-content: center;
+}
+.button-mais {
+  display: flex;
+  margin: 2vh auto;
+  width: 25%;
+  height: 4vh;
+  background-color: #ffffff;
+  border: none;  
+  border-radius: 10px;
+  color: #303030;
+  font-weight: 400;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.button-mais a {
+  color: #303030;
+}
+.button-mais:hover {
+  background-color: #F0A92E;
+}
+.card-home {
+  display: flex;
+  flex-direction: column;
+  background-color: #F2C577;
+  width: 90%;
+  margin-bottom: 3vh;
+}
+.card-home p {
+  width: 90%;
+  margin: 10px auto;
+  color: #303030;
+}
+footer {
+  display:flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #705B37;
+  /* font-size: small; */
+  /* margin-top: 10vh; */
+}
+.footer-div1 {
+  display: flex;
+  flex-direction: column;
+  height: 20vh;
+  justify-content: center;
+  /* margin: auto; */
+}
+footer p {
+  margin: 1vh auto;
+  color: #F2C577;
+  font-size: 12px;
+}
+
+.footer-div2 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: #704F15;
+  border-top: #704F15 solid 12px;  
+  border-bottom: #704F15 solid 12px;  
+}
+.footer-div2 a {
+  display: inline-block;
+  flex-direction: row;
+  font-weight: 400;
+  color: #F2C577;
+}
+.garrafa {
+  width: 30%;
+}
+.garrafa img {
+  display: flex;
+  height: 60vh;
+  margin: auto;
+}
+.conteudo {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 8vh auto;
+  background-color: #303030d0;
+}
+.produtos-pag {
+  display: flex;
+  flex-direction: row;
+  margin: 2vh auto;
+  width: 90%;
+  border-bottom: 1px solid orange;
+}
