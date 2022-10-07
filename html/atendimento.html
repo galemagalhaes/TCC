@@ -6,13 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/reset.css" />
     <link rel="stylesheet" href="../css/style.css" />
-    <title>Contato - Cervejaria Alpes</title>
+    <link rel="icon" href="../img/loguinho.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap"
+      rel="stylesheet"
+    />
+    <title>Atendimento ao Cliente - Cervejaria Alpes</title>
   </head>
   <body>
     <header>
       <div class="img-header">
         <a href="../index.html"
-          ><img src="../img/logo-paleta3.png" alt="" class="logo"
+          ><img src="../img/logo.png" alt="" class="logo"
         /></a>
       </div>
 
@@ -22,21 +29,31 @@
         <a href="./produtos.html">Produtos</a>
         <a href="./seja-revendedor.html">Seja um Revendedor</a>
         <a href="./atendimento.html">Atendimento ao Cliente</a>
-        
       </div>
     </header>
     <main class="body-atendimento">
-      <div >
+      <div>
         <form
           action="https://webto.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8"
           method="POST"
         >
           <input type="hidden" name="orgid" value="00D3t000005eeE2" />
-          <input type="hidden" name="retURL" value="https://galemagalhaes.github.io/TCC-cervejaria-alpes/html/solicitacao-enviada.html" />
-          <h1>Fale Conosco</h1>
+          <input
+            type="hidden"
+            name="retURL"
+            value="https://galemagalhaes.github.io/TCC-cervejaria-alpes/html/solicitacao-enviada.html"
+          />
+          <h1>Solicite atendimento</h1>
 
           <label class="label" for="name">Nome</label>
-          <input type="text" id="name" name="name" maxlength="80" size="20" required/> 
+          <input
+            type="text"
+            id="name"
+            name="name"
+            maxlength="80"
+            size="20"
+            required
+          />
 
           <label for="company">Empresa</label>
           <input
@@ -46,23 +63,23 @@
             maxlength="80"
             size="20"
             required
-          /> 
+          />
 
           <label for="phone">Telefone</label>
-          <input type="phone" id="phone" name="phone" /> 
+          <input type="phone" id="phone" name="phone" />
 
           <label for="email">Email</label>
-          <input type="email" id="email" name="email" required/> 
+          <input type="email" id="email" name="email" required />
 
           <label for="subject">Assunto</label>
-          <input type="text" id="subject" name="subject" /> 
+          <input type="text" id="subject" name="subject" />
 
           <label for="type">Tipo de comércio</label>
           <select id="type" name="type">
             <option value="">--Nenhum--</option>
             <option value="Bar">Bar</option>
             <option value="Supermercado">Supermercado</option>
-          </select> 
+          </select>
 
           <label for="00N3t00000JVK4U">Produto</label>
           <select id="00N3t00000JVK4U" name="00N3t00000JVK4U" title="Product">
@@ -75,9 +92,9 @@
             <option value="Cerveja Interlaken">Cerveja Interlaken</option>
             <option value="Cerveja Lucerna">Cerveja Lucerna</option>
             <option value="Cerveja Montreux">Cerveja Montreux</option>
-          </select> 
+          </select>
 
-          <label for="reason">Motivo do Caso</label>
+          <label for="reason">Motivo da solicitação</label>
           <select id="reason" name="reason">
             <option value="">--Nenhum--</option>
             <option value="Atraso na entrega">Atraso na entrega</option>
@@ -86,7 +103,7 @@
             </option>
             <option value="Produto danificado">Produto danificado</option>
             <option value="Outros">Outros</option>
-          </select> 
+          </select>
 
           <label for="priority">Prioridade</label>
           <select id="priority" name="priority">
@@ -94,7 +111,7 @@
             <option value="High">High</option>
             <option value="Medium">Medium</option>
             <option value="Low">Low</option>
-          </select> 
+          </select>
 
           <label for="description">Descrição</label>
           <textarea
@@ -102,17 +119,18 @@
             id="description"
             cols="30"
             rows="10"
-          ></textarea> 
+            placeholder="Faça uma breve descrição do problema "
+          ></textarea>
 
-          <input type="submit" name="submit" class="button" />
+          <input type="submit" name="submit" class="button-mais" />
         </form>
       </div>
     </main>
     <footer>
       <div class="footer-div1">
-        <p>Endereço</p>
-        <p>Telefone</p>
-        <p>CNPJ</p>
+        <p>Contagem - MG</p>
+        <p>Telefone: 31 3069-6100</p>
+        <p>CNPJ: 14.929.220/0001-09</p>
       </div>
       <div class="footer-div2">
         <p>2022 - Todos os direitos reservados.</p>
@@ -121,8 +139,8 @@
           ANOS. SE BEBER NÃO DIRIJA
         </p>
         <p>
-          <a href="#">Política de Privacidade</a> |
-          <a href="#">Política de Cookies</a>
+          <a href="./politica-privacidade.html">Política de Privacidade</a> |
+          <a href="./termo-uso.html">Termos de Uso</a>
         </p>
       </div>
     </footer>
